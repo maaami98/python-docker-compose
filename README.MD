@@ -3,21 +3,28 @@
 
 ## Quick Start
 
-Clone the repository:
+Download Files:
 
 ```console
-$ git clone https://github.com/okteto/python-docker-compose
-$ cd python-docker-compose
+$ curl -O https://raw.githubusercontent.com/maaami98/python-docker-compose/main/Dockerfile -O https://raw.githubusercontent.com/maaami98/python-docker-compose/main/docker-compose.yml
+
+$ docker-compose up
 ```
 
-Spin a development container:
+Rebuild Conteiner:
 
 ```console
-$ okteto up
+$ docker-compose up --build
 ```
 
- Start the application from your container:
+ Run conteiner is a background:
  
 ```console
-$ python main.py
+$ docker-compose up -d
+```
+
+Close container 
+
+```console
+$ docker-compose down
 ```
