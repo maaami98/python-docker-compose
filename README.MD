@@ -1,8 +1,7 @@
-# Deploying a FastAPI Docker Compose application to Okteto
+# Python Script to Docker Container
 
-This is the source code of the application built during the first [community call](https://youtu.be/jgftQFzVCfU) to demonstrate how to deploy docker-compose applications on Okteto.
 
-## Running remotely
+## Quick Start
 
 Clone the repository:
 
