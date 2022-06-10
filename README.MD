@@ -28,3 +28,8 @@ Close container
 ```console
 $ docker-compose down
 ```
+Check Container
+
+```console
+$ docker ps
+```
